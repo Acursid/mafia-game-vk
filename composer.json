@@ -1,0 +1,25 @@
+{
+    "name": "mikechip/mafia-game-vk",
+    "license": "GPL-3.0-or-later",
+    "description": "Mafia game bot for VK.com",
+    "minimum-stability": "dev",
+    "type": "project",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Boris Stelmakh",
+            "email": "mikechip@pm.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Mafia\\": "src"}
+    },
+    "require": {
+        "php": ">=7.0",
+        "vkcom/vk-php-sdk": "^5.101",
+        "mikechip/simplemongo": "dev-master",
+        "ext-mbstring": "^7.2",
+        "ext-json": "^1.6",
+        "ext-curl": "^7.2"
+    }
+}
